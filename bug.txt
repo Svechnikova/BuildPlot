@@ -1,0 +1,22 @@
+java.lang.NullPointerException: Attempt to invoke interface method 'double com.jjoe64.graphview.series.DataPointInterface.getX()' on a null object reference
+
+ - series = new LineGraphSeries<>(dataPoints);
+
+
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime: FATAL EXCEPTION: main
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime: Process: com.example.tatyana.buildplot, PID: 13387
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at com.example.tatyana.buildplot.graph.PlotActivity.updateGraph(PlotActivity.java:98)
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at com.example.tatyana.buildplot.graph.PlotActivity.access$000(PlotActivity.java:19)
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at com.example.tatyana.buildplot.graph.PlotActivity$1.onClick(PlotActivity.java:70)
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at android.view.View.performClick(View.java:5011)
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at android.view.View$PerformClick.run(View.java:20212)
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at android.os.Handler.handleCallback(Handler.java:739)
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at android.os.Handler.dispatchMessage(Handler.java:95)
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at android.os.Looper.loop(Looper.java:135)
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at android.app.ActivityThread.main(ActivityThread.java:5246)
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at java.lang.reflect.Method.invoke(Native Method)
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at java.lang.reflect.Method.invoke(Method.java:372)
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:899)
+12-04 22:02:36.635 13387-13387/com.example.tatyana.buildplot E/AndroidRuntime:     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:694)
+12-04 22:03:56.894 13387-13387/com.example.tatyana.buildplot I/Process: Sending signal. PID: 13387 SIG: 9

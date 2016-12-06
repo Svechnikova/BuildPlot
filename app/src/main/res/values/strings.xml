@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Build Plot</string>
+
+    <string name="info_en">About</string>
+    <string name="info_rus">О Программе</string>
+
+    <string name="language_en">EN</string>
+    <string name="language_rus">РУС</string>
+
+    <string name="plot_en">Builds Plot</string>
+    <string name="plot_rus">Построить График</string>
+
+    <string name="about_en">"This application builds plots of piecewise linear functions on points.</string>
+    <string name="about_rus">"Это приложение строит графики кусочно-линейных функций по точкам.</string>
+
+    <string name="text_en">"Enter coordinates of X and Y in the table.</string>
+    <string name="text_rus">"Введите координаты X и Y в таблицу.</string>
+
+</resources>
